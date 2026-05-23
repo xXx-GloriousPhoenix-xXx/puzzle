@@ -1,0 +1,23 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "Implementation of puzzle app for Become a Developer internship program",
+  "main": "app.ts",
+  "scripts": {
+    "start": "npx tsx app.ts"
+  },
+  "keywords": [],
+  "author": "Prikhodjko Roman",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.4.3",
+    "chalk": "^5.6.2",
+    "ora": "^9.4.0"
+  }
+}
