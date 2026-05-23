@@ -31,7 +31,7 @@ You will be prompted to choose a mode:
 ```
 ? Оберіть режим:
 ❯ Звичайний (data/)
-  Тест (test_*/)
+  Тест (test/)
 ```
 
 ### Normal mode
@@ -59,10 +59,10 @@ puzzle/
 │   ├── source.txt        # Input fragments
 │   └── destination.txt   # Output result (generated)
 ├── test/
-│   ├── test_1/
+│   ├── 1/
 │   │   ├── source.txt    # Test input
 │   │   └── expected.txt  # Expected output
-│   └── test_2/
+│   └── 2/
 │       ├── source.txt
 │       └── expected.txt
 ├── app.ts

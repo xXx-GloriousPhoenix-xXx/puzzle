@@ -184,7 +184,7 @@ async function runAsync()
             message: 'Оберіть режим:',
             choices: [
                 { name: 'Звичайний (data/)', value: 'data' },
-                { name: 'Тест (test_*/)',    value: 'test' }
+                { name: 'Тест (test/)',    value: 'test' }
             ]
         });
 
